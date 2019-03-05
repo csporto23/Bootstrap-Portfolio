@@ -1,0 +1,34 @@
+body {
+    background-image: url(https://images.wallpaperscraft.com/image/metal_line_stripes_light_shiny_silver_18401_1920x1080.jpg);
+}
+#copyright {
+    border-color: teal;
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-top-color: teal;
+}
+#mastName {
+    font-size: 34px;
+    background-color: teal;
+    color: white;
+    padding-top: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+#navbar {
+    font-size: 18px;
+    color:teal;
+}
+
+#main-container {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: teal;
+}
+h1 {
+    font-size: 24px;
+    color: teal;
+}

@@ -6,17 +6,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body> 
             <header id="header">
-                <div class="container max-width: 960px bg-dark">
+                <div class="container max-width: 960px bg-white">
                     <div class="row">
-                        <div class="col-3 mt-3">
+                      <div class="col-sm">
+                        <div class="d-flex justify-content-start">
                     <a id="mastName" href="index.html">Colton Porto</a>
                     </div>
-
-                    <div class="col-9">
-                    <nav class="navbar navbar-expand-lg navbar-white bg-dark float-right">
+                  </div>
+                  <div class="col-md-8">
+                    <nav class="navbar navbar-expand-lg navbar-white bg-white float-right" id="navbar">
                         <a class="navbar-brand" href="index.html">About Me</a>
                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -34,11 +37,12 @@
                 </div>
               </nav>
               </div>
+              </div>
               </header>
         <div id="main-container" class="container">
                         <div class="card mb-3 mt-3" style="max-width: 960px;">
                                 <div class="row mt-3 ml-3">
-                                        <h2 class="card-title text-primary">About Me</h2>
+                                        <h2 class="card-title">About Me</h2>
                                 </div>
                                 <div class="row no-gutters border-top ml-3 mr-3 ">
                                   <div class="col-md-3 mt-4">
@@ -57,16 +61,10 @@
                               </div>
                 </div>
             </div>
-            <footer class="container fixed-bottom">
-                <div class="row">
-                    <div class="col-5">
-                    </div>
-                    <div class="col-2">
-                        Copyright &copy;
-                    </div>
-                <div class="col-2">
+            <footer class="container fixed-bottom border-top">
+                <div class="row bg-dark text-white d-flex justify-content-center pt-4 pb-2" id="copyright">
+                        Copyright&copy;
             </div>
-        </div>
       </footer>
     </body>
 </html>
