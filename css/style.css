@@ -22,7 +22,7 @@ body {
 
 #main-container {
     font-size: 20px;
-    margin-bottom: 75px;
+    margin-bottom: 150px;
 }
 
 h2 {
@@ -39,6 +39,6 @@ p{
     letter-spacing: 1px;
     margin-bottom: 12px;
 }
-footer {
- margin-top: 75px;
+#tech {
+    margin-bottom: 50px;
 }
