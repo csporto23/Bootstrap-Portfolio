@@ -8,6 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body> 
             <header id="header">
@@ -51,19 +54,91 @@
             </div>
                     <div class="row">
                         <div class="col-md mt-4">
-                        <img src="images/water.jpg.jpg" alt="sony" width="200" height="200"class="rounded float-left">
+                            <img src="./images/colton-trivia.PNG" class="rounded" alt="colton" data-toggle="modal" data-target="#trivia-game" width="200" height="200">
+                            <!-- make modal ID unique to you -->
+                            <!-- Modal -->
+                                  <div class="modal fade" id="trivia-game" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Colton Porto</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <!-- your project img && your project link-->
+                                          <div class="modal-body">
+                                              <img src="./images/colton-trivia.PNG" alt="colton" height="200" width="200">
+                                              <a href="https://csporto23.github.io/TriviaGame/" class="card-link">Easter Trivia Game</a>
+                                              <a href="https://github.com/csporto23/TriviaGame" class="card-link">Easter Trivia Game Code</a>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- Project modal closed -->
                     </div>
                     <div class="col-md mt-4">
-                        <img src="images/Tiger.jpg.jpg" alt="house" width="200" height="200"class="rounded float-left">
+                        <img src="./images/colton-wiz.PNG" class="rounded" alt="colton" data-toggle="modal" data-target="#wiz-game" width="200" height="200">
+                        <!-- make modal ID unique to you -->
+                        <!-- Modal -->
+                              <div class="modal fade" id="wiz-game" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Colton Porto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <!-- your project img && your project link-->
+                                      <div class="modal-body">
+                                          <img src="./images/colton-wiz.PNG" alt="colton" height="200" width="200">
+                                          <a href="https://csporto23.github.io/Wizard-Strength/" class="card-link">Wizard Game</a>
+                                          <a href="https://github.com/csporto23/Wizard-Strength" class="card-link">Wizard Game Code</a>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Project modal closed -->
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md mt-4" id="tech">
-                            <img src="images/tech.jpg.jpg" alt="house" width="200" height="200"class="rounded float-left">
+                        <img src="./images/colton-rps.PNG" class="rounded" alt="colton" data-toggle="modal" data-target="#rps-game" width="200" height="200">
+                        <!-- make modal ID unique to you -->
+                        <!-- Modal -->
+                              <div class="modal fade" id="rps-game" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Colton Porto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <!-- your project img && your project link-->
+                                      <div class="modal-body">
+                                          <img src="./images/colton-rps.PNG" alt="colton" height="200" width="200">
+                                          <a href="https://csporto23.github.io/RPS-Multiplayer/" class="card-link">RPS Game</a>
+                                          <a href="https://github.com/csporto23/RPS-Multiplayer" class="card-link">rps code</a>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Project modal closed -->
                         </div>
                     </div>
             </div>
-            <footer class="container-fluid fixed-bottom border-top">
+            <footer class="fluid fixed-bottom border-top">
                     <div class="row bg-dark text-white d-flex justify-content-center pt-4 pb-2" id="copyright">
                             Copyright&copy;
                 </div>
